@@ -24,9 +24,9 @@
 
                 <div class="header__nav">
                     <nav>
-                        <a href="#">Home</a>
-                        <a href="#">Project</a>
-                        <a href="#">Blog</a>
+                        <a href="index.html">Home</a>
+                        <a href="project.html">Project</a>
+                        <a href="blog.html">Blog</a>
                     </nav>
                 </div>
 
@@ -187,55 +187,13 @@
                         lookings at its layouts the points of using.</p>
                 </div>
 
-                <div class="main__bottom">
-                    <div class="main__news">
-                        <img src="img/news1.png" alt="news">
-                        <h3 class="main__h3">Let’s Get Solution For Building
-                            Construction Work</h3>
+                <div class="main__bottom app">
+                    <div class="main__news" v-for="(item,index) in items"
+                        v-if="index>=3">
+                        <img v-bind:src="item.src" alt="news">
+                        <h3 class="main__h3">{{ item.name }}</h3>
                         <div class="main__news_bottom">
-                            <span>26 December,2022</span>
-                            <svg width="52" height="53" viewBox="0 0 52 53"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="26" cy="26.267" r="26"
-                                    fill="#F4F0EC" />
-                                <path
-                                    d="M23.7714 32.9527L29.7143 26.267L23.7714 19.5813"
-                                    stroke="#292F36" stroke-width="2"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
-                        </div>
-
-                    </div>
-
-                    <div class="main__news">
-                        <img src="img/news2.png" alt="news">
-                        <h3 class="main__h3">Low Cost Latest Invented Interior
-                            Designing
-                            Ideas.</h3>
-                        <div class="main__news_bottom">
-                            <span>22 December,2022 </span>
-                            <svg width="52" height="53" viewBox="0 0 52 53"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="26" cy="26.267" r="26"
-                                    fill="#F4F0EC" />
-                                <path
-                                    d="M23.7714 32.9527L29.7143 26.267L23.7714 19.5813"
-                                    stroke="#292F36" stroke-width="2"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
-                        </div>
-
-                    </div>
-
-                    <div class="main__news">
-                        <img src="img/news3.png" alt="news">
-                        <h3 class="main__h3">Best For Any Office & Business
-                            Interior
-                            Solution</h3>
-                        <div class="main__news_bottom">
-                            <span>25 December,2022 </span>
+                            <span>{{ item.dat }}</span>
                             <svg width="52" height="53" viewBox="0 0 52 53"
                                 fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="26" cy="26.267" r="26"
@@ -288,9 +246,9 @@
             </div>
             <div class="footer__center">
                 <p class="footer__p">Pages</p>
-                <p><a href="#">Home</a></p>
-                <p><a href="#">Project</a></p>
-                <p><a href="#">Blog</a></p>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="project.html">Project</a></p>
+                <p><a href="blog.html">Blog</a></p>
             </div>
             <div class="footer__right">
                 <p class="footer__p">Contact</p>
@@ -301,5 +259,7 @@
             </div>
         </footer>
 
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
