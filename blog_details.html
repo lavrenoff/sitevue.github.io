@@ -35,85 +35,25 @@
 
             </div>
         </header>
-        <main class="mainblog">
-            <div class="mainblog__photo">
-                <img src="img/photo.png" alt="photo">
-                <div class="mainblog__txt">
-                    <h1 class="mainblog__h1">Articles & News</h1>
-
-                    <p>Home / Blog</p>
-                </div>
-            </div>
-            <div class="mainblog__post center">
-                <h2 class="mainblog__h1">
-                    Latest Post
-                </h2>
-                <div class="mainblog__post1">
-                    <img src="img/photo1.png" alt="photo1">
-                    <div class="mainblog__right">
-                        <h3>
-                            Low Cost Latest Invented Interior Designing Ideas
-                        </h3>
-                        <br>
-                        <p>
-                            Lorem ipsum dolor sit amet, adipiscing Aliquam eu
-                            sem vitae turpis dignissim maximus.posuere
-                            in.Contrary to popular belief.
-                        </p><br>
-                        <p>
-                            Lorem Ipsum is not simply random text. It has roots
-                            in a piece of classica.
-
-                        </p><br>
-                        <div class="mainblog__right1">
-                            <span>26 December,2022 </span>
-                            <svg width="52" height="53" viewBox="0 0 52 53"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="26" cy="26.5" r="26" fill="#F4F0EC" />
-                                <path
-                                    d="M23.771 33.1855L29.7139 26.4998L23.771 19.8141"
-                                    stroke="#292F36" stroke-width="2"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
+        <main>
+            <div class="blogdetails">
+                <img class="blogdetails__img" src="img/blogdetailsimg.png" alt>
+                <div class="blogdetails__bottom center">
+                    <div class="blogdetails__content">
+                        <component :is="changeTabs"></component>
+                    </div>
+                    <div class="blogdetails__tags">
+                        <p>Tags</p>
+                        <div class="blogdetails__buttons">
+                            <button @click="currentTab=button.id"
+                                v-for="button in buttons"
+                                :key="button.id">
+                                {{ button.text }}
+                            </button>
 
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="mainblog__news center">
-                <h2 class="mainblog__h1">
-                    Articles & News
-                </h2>
-                <div class="mainblog__news1 app">
-                    <div class="main__news" v-for="item in items">
-                        <img v-bind:src="item.src" alt="news">
-                        <h3 class="main__h3">{{ item.name }}</h3>
-                        <div class="main__news_bottom">
-                            <span>{{ item.dat }}</span>
-                            <svg width="52" height="53" viewBox="0 0 52 53"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="26" cy="26.267" r="26"
-                                    fill="#F4F0EC" />
-                                <path
-                                    d="M23.7714 32.9527L29.7143 26.267L23.7714 19.5813"
-                                    stroke="#292F36" stroke-width="2"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="mainblog__nav">
-                <button class="btn btn1">01</button>
-                <button class="btn btn2">02</button>
-                <button class="btn btn3">03</button>
-                <button class="btn btn4">></button>
             </div>
         </main>
         <footer class="footer center">
@@ -162,8 +102,7 @@
                 <p class="footer__pp">(123) 456 - 7890</p>
             </div>
         </footer>
-
         <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-        <script src="script.js"></script>
+        <script src="blog_details.js"></script>
     </body>
 </html>

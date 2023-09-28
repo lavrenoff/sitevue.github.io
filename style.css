@@ -1,12 +1,12 @@
 @font-face {
-  font-family: 'DM Serif Display Regular';
+  font-family: "DM Serif Display Regular";
   font-style: normal;
   font-weight: normal;
   src: local("DM Serif Display Regular"), url("fonts/DMSerifDisplay-Regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'DM Serif Display Italic';
+  font-family: "DM Serif Display Italic";
   font-style: normal;
   font-weight: normal;
   src: local("DM Serif Display Italic"), url("fonts/DMSerifDisplay-Italic.woff") format("woff");
@@ -17,13 +17,17 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'DM Serif Display Regular';
+  font-family: "DM Serif Display Regular";
   position: relative;
 }
 
 .center {
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
+}
+
+.header__logo a {
+  text-decoration: none;
 }
 
 .header__menu {
@@ -41,7 +45,7 @@
 }
 
 .header__text {
-  color: #292F36;
+  color: #292f36;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -51,9 +55,9 @@
 
 .header__nav a {
   text-decoration: none;
-  color: #292F36;
+  color: #292f36;
   text-align: center;
-  font-family: 'Jost';
+  font-family: "Jost";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -82,7 +86,7 @@
 }
 
 .main__top_h1 {
-  color: #292F36;
+  color: #292f36;
   font-size: 65px;
   font-style: normal;
   font-weight: 400;
@@ -90,8 +94,8 @@
 }
 
 .main__top_txt {
-  color: #4D5053;
-  font-family: 'Jost', sans-serif;
+  color: #4d5053;
+  font-family: "Jost", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -106,7 +110,7 @@
   padding-right: 48px;
   padding-left: 48px;
   border-radius: 18px;
-  background-color: #292F36;
+  background-color: #292f36;
   color: #fff;
   border: 0px;
   font-size: 18px;
@@ -121,7 +125,7 @@
 }
 
 .main__h2 {
-  color: #292F36;
+  color: #292f36;
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
@@ -130,7 +134,7 @@
 }
 
 .main__p {
-  color: #4D5053;
+  color: #4d5053;
   text-align: center;
   font-family: "Jost";
   font-size: 22px;
@@ -142,7 +146,7 @@
 }
 
 .main__h3 {
-  color: #292F36;
+  color: #292f36;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
@@ -152,8 +156,8 @@
 }
 
 .main__link {
-  color: #4D5053;
-  font-family: 'Jost';
+  color: #4d5053;
+  font-family: "Jost";
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -208,11 +212,11 @@
 }
 
 .main__numbers {
-  background-color: #F4F0EC;
+  background-color: #f4f0ec;
 }
 
 .main__span {
-  color: #CDA274;
+  color: #cda274;
   font-size: 85px;
   font-style: normal;
   font-weight: 400;
@@ -237,15 +241,15 @@
 }
 
 .main__number1 {
-  border-right: 1px solid #CDA274;
+  border-right: 1px solid #cda274;
 }
 
 .main__number2 {
-  border-right: 1px solid #CDA274;
+  border-right: 1px solid #cda274;
 }
 
 .main__number3 {
-  border-right: 1px solid #CDA274;
+  border-right: 1px solid #cda274;
 }
 
 .main__news_bottom {
@@ -264,7 +268,7 @@
 .main__news {
   width: 382px;
   padding: 20px;
-  border: 1px solid #E7E7E7;
+  border: 1px solid #e7e7e7;
   border-radius: 50px;
 }
 
@@ -273,11 +277,11 @@
 }
 
 .main__news:hover {
-  background-color: #E7E7E7;
+  background-color: #e7e7e7;
 }
 
 .main__h3 {
-  color: #292F36;
+  color: #292f36;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
@@ -287,8 +291,8 @@
 }
 
 .main__news_bottom span {
-  color: #4D5053;
-  font-family: 'Jost';
+  color: #4d5053;
+  font-family: "Jost";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -319,8 +323,8 @@
 }
 
 .footer__left p {
-  color: #4D5053;
-  font-family: 'Jost';
+  color: #4d5053;
+  font-family: "Jost";
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -357,13 +361,13 @@
 .footer__center a {
   text-decoration: none;
   font-size: 22px;
-  color: #4D5053;
+  color: #4d5053;
   font-style: normal;
   font-weight: 400;
   line-height: 300%;
   /* 66px */
   letter-spacing: 0.22px;
-  font-family: 'Jost';
+  font-family: "Jost";
 }
 
 .footer__right {
@@ -372,8 +376,8 @@
 }
 
 .footer__pp {
-  color: #4D5053;
-  font-family: 'Jost';
+  color: #4d5053;
+  font-family: "Jost";
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -437,7 +441,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1px solid #E7E7E7;
+  border: 1px solid #e7e7e7;
   padding: 22px;
   border-radius: 62px;
 }
@@ -463,7 +467,7 @@
 }
 
 .mainblog__right h3 {
-  color: #292F36;
+  color: #292f36;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
@@ -473,8 +477,8 @@
 }
 
 .mainblog__right p {
-  color: #4D5053;
-  font-family: 'Jost';
+  color: #4d5053;
+  font-family: "Jost";
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -496,8 +500,8 @@
 }
 
 .mainblog__right1 span {
-  color: #4D5053;
-  font-family: 'Jost';
+  color: #4d5053;
+  font-family: "Jost";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -531,12 +535,12 @@
 .btn {
   margin-top: 50px;
   margin-bottom: 200px;
-  border: 1px solid #CDA274;
+  border: 1px solid #cda274;
   width: 52px;
   height: 52px;
   border-radius: 50px;
-  color: #292F36;
-  font-family: 'Jost';
+  color: #292f36;
+  font-family: "Jost";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -546,10 +550,184 @@
 }
 
 .btn:hover {
-  background-color: #F4F0EC;
+  background-color: #f4f0ec;
 }
 
-.btn1, .btn2, .btn3 {
+.btn1,
+.btn2,
+.btn3 {
   margin-right: 37px;
+}
+
+.blogdetails__img {
+  width: 100%;
+}
+
+.blogdetails__img1 {
+  border-radius: 50px;
+}
+
+.blogdetails__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 100px;
+}
+
+.blogdetails__content {
+  width: 70%;
+}
+
+.blogdetails__tags {
+  width: 30%;
+}
+
+.blogdetails__h1 {
+  color: #292f36;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  /* 62.5px */
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+
+.blogdetails__date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 24px */
+  letter-spacing: 0.16px;
+  text-transform: capitalize;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.blogdetails__txt1 p {
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 150%;
+  /* 33px */
+  letter-spacing: 0.22px;
+}
+
+.blogdetails__quote {
+  background-color: #f4f0ec;
+  text-align: center;
+  color: #cda274;
+  padding-top: 60px;
+  padding-bottom: 70px;
+  border-radius: 50px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.blogdetails__t1, .blogdetails__t2 {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 125%;
+  /* 31.25px */
+  letter-spacing: 0.5px;
+}
+
+.blogdetails__ol {
+  list-style-type: none;
+  counter-reset: num;
+  margin: 0 0 0 11px;
+  padding: 15px 0 5px 0;
+}
+
+.blogdetails__ol li {
+  position: relative;
+  margin: 0 0 0 0;
+  padding: 0 0 10px 0;
+  font-size: 22px;
+  color: #4d5053;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 33px */
+  letter-spacing: 0.22px;
+}
+
+.blogdetails__ol li:before {
+  content: counter(num);
+  counter-increment: num;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: -26px;
+  width: 20px;
+  color: #cda274;
+  text-align: right;
+  font-size: 20px;
+}
+
+.blogdetails__txt2 {
+  padding-top: 44px;
+  padding-bottom: 100px;
+}
+
+.blogdetails__p1 {
+  padding-top: 35px;
+}
+
+.blogdetails__tags {
+  padding-left: 52px;
+}
+
+.blogdetails__tags p {
+  color: #292f36;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  /* 31.25px */
+  letter-spacing: 0.5px;
+}
+
+.blogdetails__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.blogdetails__tags button {
+  background-color: #F4F0EC;
+  border: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 18px;
+  font-family: 'Jost';
+  border-radius: 10px;
+}
+
+.blogdetails__tags button:hover {
+  background-color: #292F36;
+  color: white;
+}
+
+.blogdetails__buttons {
+  padding-top: 30px;
 }
 /*# sourceMappingURL=style.css.map */
